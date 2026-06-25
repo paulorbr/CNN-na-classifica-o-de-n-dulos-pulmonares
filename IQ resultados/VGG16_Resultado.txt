@@ -1,0 +1,17 @@
+RESULTADO FINAL - VGG16
+MÉTRICAS DE CLASSIFICAÇÃO (Média ± Desvio Padrão):
+       ACC: 0.9809 ± 0.0104
+    RECALL: 0.9820 ± 0.0129
+        F1: 0.9846 ± 0.0085
+       AUC: 0.9971 ± 0.0024
+CUSTO COMPUTACIONAL:
+
+1. TEMPO DE MÁQUINA:
+  Calibração (Optuna): 26.17 h (1570.41 min)
+  Treinamento Final  : 1.23 h (73.72 min)
+  Total da Máquina   : 27.40 h
+
+2. TEMPO REAL (média):
+  Calibração         : 8.72 h (523.47 min)
+  Treinamento        : 0.41 h (24.57 min)
+  TEMPO DOS 2 JUNTOS : 9.46 h (567.39 min)

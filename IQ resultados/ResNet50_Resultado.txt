@@ -1,0 +1,17 @@
+RESULTADO FINAL GLOBAL PARALELIZADO - ResNet50
+MÉTRICAS DE CLASSIFICAÇÃO (Média ± Desvio Padrão):
+       ACC: 0.9639 ± 0.0201
+    RECALL: 0.9752 ± 0.0164
+        F1: 0.9713 ± 0.0155
+       AUC: 0.9955 ± 0.0036
+CUSTO COMPUTACIONAL:
+
+1. TEMPO DE MÁQUINA:
+  Calibração (Optuna): 23.28 h (1397.05 min)
+  Treinamento Final  : 0.84 h (50.46 min)
+  Total da Máquina   : 24.13 h
+
+2. TEMPO REAL (média):
+  Calibração         : 5.82 h (349.26 min)
+  Treinamento        : 0.21 h (12.62 min)
+  TEMPO DOS 2 JUNTOS : 6.10 h (366.21 min)
